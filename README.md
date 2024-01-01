@@ -5,26 +5,26 @@
 [![Phiên bản](https://img.shields.io/badge/version-v1.0.0-brightgreen.svg)](https://github.com/username/repo/releases)
 
 
-# Mô tả ngắn về nghiên cứu
+# Summary
 
-Trong cuộc cách mạng công nghệ 4.0, trí tuệ nhân tạo ngày càng được phát triển và ứng dụng rộng rãi trong mọi lĩnh vực. Tuy nhiên, có một lĩnh vực được phát triển trong nghiên cứu và rất được quan tâm gần đây đó là nông nghiệp thông minh. Phát triển trong ngành nông nghiệp, đặt biệt là cây trồng, là một trong những lĩnh vực quan trọng trong phát triển kinh tế. Những khó khăn trong quá trình trồng cây ăn trái là việc xuất hiện những loại bệnh như đốm nâu, cháy bìa lá, nấm lá, phấn trắng. Đã làm giảm cả sản lượng và chất lượng của việc trồng cây ăn trái. Vì vậy, việc phát hiện các bệnh trên cây phổ biến trên cây trồng nhằm giúp người dân nâng cao năng suất là vấn đề cấp thiết. Vì vậy trong nghiên cứu này chúng tôi đề xuất để tìm ra các phương pháp chẩn đoán bệnh trên cây dựa trên hình ảnh và được thực nghiệm trên tập dữ liệu chứa các hình ảnh của lá cây bị nhiễm bệnh và không bị nhiễm bệnh. Trong nghiên cứu này, thực hiện các công việc chính: sử dụng YOLOv8 để tách các thành lá cây và khử nhiễu hình ảnh, phân vùng hình ảnh sau đó áp dụng kỹ thuật lọc nhiễu dựa trên Ngưỡng mềm bằng hồi quy Lasso và tiếp tục thực hiện phương pháp giải thích kết quả Grad-CAM “Gradient-Weighted Class Activation Map” để xác định vị trí vùng bệnh trên ảnh của lá cây. Đồng thời, sử dụng mô hình được huấn luyện và đánh giá trên tập dữ liệu bao gồm 61.486 hình ảnh của 39 loại lá cây của 14 loài thực vật khác khau trong đó có 1 loại chứa hình ảnh nền không lá. Kết quả thực nghiệm cho thấy phương pháp phân đoạn và lọc nhiễu dựa trên Ngưỡng kết hợp với mô hình ShuffleNetV2 được tinh chỉnh các giá trị siêu tham số và đạt được kết quả tốt so với các mô hình LeNet-5, ResNet18 với mô hình ShuffleNetV2 đạt độ chính xác 99.9\% và thời gian chạy ngắn.
+In the 4.0 technology revolution, artificial intelligence is increasingly developed and widely applied in all fields, especially smart agriculture. Development in the agricultural sector, especially crops, is one of the critical areas in economic development. The difficulties in growing fruit trees are the appearance of diseases such as brown spots, leaf cover fire, leaf fungus, powdery mildew, etc., which have reduced the yield and the quality of fruit cultivation. Therefore, detecting common plant leaf diseases is an urgent issue in agricultural development. This study proposes a plant leaf disease detection approach, namely YSLS-Grad, based on machine learning algorithms combined with an Interpretable Machine Learning Model such as Gradient-Weighted Class Activation Map (Grad-CAM). The proposed approach is: First, the You Only Look Once (YOLO) v8 is applied to separate the leaf area from plant images. Then, the Soft threshold-based noise reduction technique, Lasso regression, is used to reduce image noise. Next, the data are fed into the ShuffleNetV2 model refined with hyperparameter values for classifying plant leaf diseases. Then, after obtaining a trained model, Grad-CAM is deployed to locate the disease area on the plant leaf images. Based on essential scores on disease areas computed by Grad-CAM, we compare threshold values to perform the segmentation tasks. 
 
 
-## Phương pháp nghiên cứu 
-- Mô hình YOLOv8, ShuffleNetV2, ResNet18, LeNet-5
+## Method
+- YOLOv8, ShuffleNetV2, ResNet18, LeNet-5
 - GradCAM
-- Giảm nhiễu
+- Noise Reduction
 
-## Công Nghệ Sử Dụng
-
-Dưới đây là một số công nghệ chính mà dự án của chúng tôi sử dụng:
+## 
+Technologies Used
+Here are some key technologies that our project utilizes:
 
 - [Python](https://www.python.org/)
 
 
-## Hỗ Trợ
+## Support
 
-Nếu bạn gặp bất kỳ vấn đề hoặc có câu hỏi, vui lòng liên hệ chúng tôi qua [email](mailto:nphat77777@gmail.com) hoặc [diễn đàn](https://github.com/NGUYENMINHPHAT).
+If you encounter any issues or have questions, please feel free to contact us via [email](mailto:nphat77777@gmail.com) or [on our](https://github.com/NGUYENMINHPHAT).
 
 ---
-**Chú ý:** Đừng quên cập nhật tất cả các liên kết và thông tin để phản ánh dự án cụ thể của bạn.
+**Note:** Don't forget to update all links and information to reflect the specifics of your project.
