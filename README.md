@@ -13,3 +13,16 @@ Trong cuộc cách mạng công nghệ 4.0, trí tuệ nhân tạo ngày càng �
 - Mô hình YOLOv8, ShuffleNetV2, ResNet18, LeNet-5
 - GradCAM
 - Giảm nhiễu
+
+## Hướng Dẫn Sử Dụng
+
+1. Bước 1
+2. Bước 2
+3. Bước 3
+
+## Hỗ Trợ
+
+Nếu bạn gặp bất kỳ vấn đề hoặc có câu hỏi, vui lòng liên hệ chúng tôi qua [email](mailto:nphat77777@gmail.com) hoặc [diễn đàn](https://github.com/NGUYENMINHPHAT).
+
+---
+**Chú ý:** Đừng quên cập nhật tất cả các liên kết và thông tin để phản ánh dự án cụ thể của bạn.
