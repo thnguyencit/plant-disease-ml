@@ -27,7 +27,7 @@ Shows the overall workflow for leaf disease detection. In the first phase, we co
 
 ![Normalized_Confusion_Matrix](Images/Normalized_Confusion_Matrix.png)
 
-- Figure compares test recognition accuracy by ShuffleNetV2, ResNet18, and LeNet-5 in modern architectures. With training comparison, it works and corresponds to the validation.
+- Figure compares test recognition accuracy by ShuffleNetV2, ResNet18, and LeNet-5 in modern architectures. With training comparison, it works and corresponds to the validation. Observing figure increases the accuracy determined by different models. It should be noted that the accuracy of our model is currently higher than other models. Figure 10 identifies the preliminary calibration results of the proposed method.
 
 ![Summary_Of_Charts](Images/Summary_Of_Charts.png)
 
