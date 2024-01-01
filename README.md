@@ -15,8 +15,8 @@ In the 4.0 technology revolution, artificial intelligence is increasingly develo
 - GradCAM
 - Noise Reduction
 ## Experimental Results
-![Evaluation results in IoU with various threshold values using Grad-CAM and the trained
-ShuffleNetV2 model]
+Evaluation results in IoU with various threshold values using Grad-CAM and the trained ShuffleNetV2 model
+
 ![Logo Project](Images/Box_Chart_IoU_GradCAM.png)
 
 
