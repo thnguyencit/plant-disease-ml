@@ -24,7 +24,7 @@ Here are some key technologies that our project utilizes:
 
 ## Support
 
-If you encounter any issues or have questions, please feel free to contact us via [email](mailto:nphat77777@gmail.com) or [on our](https://github.com/NGUYENMINHPHAT).
+If you encounter any issues or have questions, please feel free to contact us via [email](mailto:nphat77777@gmail.com) or [on our](https://github.com/thnguyencit/plant-disease-ml/tree/main).
 
 ---
 **Note:** Don't forget to update all links and information to reflect the specifics of your project.
