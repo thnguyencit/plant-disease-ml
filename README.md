@@ -14,9 +14,12 @@ In the 4.0 technology revolution, artificial intelligence is increasingly develo
 - YOLOv8, ShuffleNetV2, ResNet18, LeNet-5
 - GradCAM
 - Noise Reduction
+## Experimental Results
+![Mô Tả Ảnh](link_den_anh)
+![Logo Project](Images/Box_Chart_IoU_GradCAM.png)
 
-## 
-Technologies Used
+
+## Technologies Used
 Here are some key technologies that our project utilizes:
 
 - [Python](https://www.python.org/)
