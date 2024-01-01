@@ -15,11 +15,12 @@ Trong cuộc cách mạng công nghệ 4.0, trí tuệ nhân tạo ngày càng �
 - GradCAM
 - Giảm nhiễu
 
-## Hướng Dẫn Sử Dụng
+## Công Nghệ Sử Dụng
 
-1. Bước 1
-2. Bước 2
-3. Bước 3
+Dưới đây là một số công nghệ chính mà dự án của chúng tôi sử dụng:
+
+- [Python](https://www.python.org/)
+
 
 ## Hỗ Trợ
 
