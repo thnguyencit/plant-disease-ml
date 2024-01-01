@@ -1,8 +1,9 @@
 # YSLS-Grad: A machine learning and Grad-Cam-based approach for identifying plant disease from leaves
 
-[![Trạng thái xây dựng]
-[![Giấy phép]
-[![Phiên bản]
+[![Trạng thái xây dựng](https://img.shields.io/travis/username/repo.svg)](https://travis-ci.org/username/repo)
+[![Giấy phép](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Phiên bản](https://img.shields.io/badge/version-v1.0.0-brightgreen.svg)](https://github.com/username/repo/releases)
+
 
 Mô tả ngắn về nghiên cứu
 
