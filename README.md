@@ -33,7 +33,7 @@ Shows the overall workflow for leaf disease detection. In the first phase, we co
 
 - Figure illustrates the binary image extracted from various Grad-CAM based threshold values ranging from 0.1 to 0.5. These visualizations allow us to see the binary shapes extracted from Grad-CAM. From that, they can be used for segmentation compared to the masks, which is also an essential contribution of our method.
 
-![Summary_Of_Charts](Binary_Threshold_Values.jpg)
+![Binary_Threshold_Values](Images/Binary_Threshold_Values.jpg)
 
 
 ## Technologies Used
