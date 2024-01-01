@@ -14,22 +14,27 @@ In the 4.0 technology revolution, artificial intelligence is increasingly develo
 The proposed workflow for Disease Detection on Plant Leaves.
 Shows the overall workflow for leaf disease detection. In the first phase, we collect data for testing and divide the dataset into two main subsets, including the training and testing sets. We then process data by applying image denoising, Soft Thresholding Noise Filtering with Lasso regression to reduce image noise. Next, the data are fed into deep learning architectures such as ShuffleNetV2, LeNet-5, and ResNet18 for disease classification tasks. After having a classification model, the study continued to apply the Grad-CAM interpretation method, which supports segmentation to locate the disease area on the plant leaf images.
 
+![Workflow](Images/Diagram.png)
 
 ## Method
 - YOLOv8, ShuffleNetV2, ResNet18, LeNet-5
 - GradCAM
 - Noise Reduction
+
 ## Experimental Results
-Evaluation results in IoU with various threshold values using Grad-CAM and the trained ShuffleNetV2 model
 
-![Box Chart IoU GradCAM](Images/Box_Chart_IoU_GradCAM.png)
+- Figure shows the results of the confusion matrix in the testing set, with the number of disease classes that produced the lowest results being the class named Tomato Early Blight with an accuracy of 0.6 and the class that produced the highest result with an accuracy of 1.0.
 
+![Normalized_Confusion_Matrix](Images/Normalized_Confusion_Matrix.png)
+
+- Figure compares test recognition accuracy by ShuffleNetV2, ResNet18, and LeNet-5 in modern architectures. With training comparison, it works and corresponds to the validation.
+
+![Summary_Of_Charts](Images/Summary_Of_Charts.png)
 
 ## Technologies Used
 Here are some key technologies that our project utilizes:
 
 - [Python](https://www.python.org/)
-
 
 ## Support
 
