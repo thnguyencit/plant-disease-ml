@@ -64,10 +64,12 @@ python ShuffleNetV2.py -t train -r test -e 10 -k 39 -b 32 -g -o ShuffleNetV2\Shu
 python app.py 
 http://127.0.0.1:5000/
 ```
+[![Phiên bản](https://img.shields.io/badge/version-v1.0.0-brightgreen.svg)](https://github.com/username/repo/releases)
+
 ## Support
 
 If you encounter any issues or have questions, please feel free to contact us via [email](mailto:nphat77777@gmail.com) or [on our](https://github.com/thnguyencit/plant-disease-ml/tree/main).
 
 ---
 **Note:** Don't forget to update all links and information to reflect the specifics of your project.
-[![Phiên bản](https://img.shields.io/badge/version-v1.0.0-brightgreen.svg)](https://github.com/username/repo/releases)
+
