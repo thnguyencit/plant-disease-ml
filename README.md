@@ -47,6 +47,7 @@ Here are some key technologies that our project utilizes:
 
 - Clone
   
+```bash
 git clone https://github.com/thnguyencit/plant-disease-ml.git
 cd plant-disease-ml/YSLS-Grad/Source Code
 
