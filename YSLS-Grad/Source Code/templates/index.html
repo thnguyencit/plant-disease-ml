@@ -1,0 +1,202 @@
+<html>
+{% extends 'base.html' %}
+{% block pagetitle %}
+AI Engine
+{% endblock pagetitle %}
+
+{% block body %}
+
+
+<div>
+    <nav class="navbar navbar-expand-lg " style="height:40px;background-color:#3CB371;">
+        <ul class="horizontal-menu" style="width:2300px; ">
+            <i class="fa fa-envelope " href=""
+                style="margin-top:19px;font-weight: bold; font-size: 16px; color:#fff;margin-left:-5%"> &nbsp;
+                dissertationgradute@gmail.com
+            </i>
+
+            <i href="#" style="font-weight: bold; font-size: 15px; color:#fff;font-style:normal;margin-left:3%;">Free shipping</i>
+
+
+            <i href="#https://twitter.com/" style="font-weight: bold; font-size: 16px; color:#fff;margin-left:35%"><i
+                    class="fa fa-twitter" aria-hidden="true"></i></i>
+            <i href="#https://facebook.com/" style="font-weight: bold; font-size: 16px; color:#fff;margin-left:1%"><i
+                    class="fa fa-facebook" aria-hidden="true"></i></i>
+            <i href="#https://pinerest.com/" style="font-weight: bold; font-size: 16px; color:#fff;margin-left:1%"><i
+                    class="fa fa-pinterest" aria-hidden="true"></i></i>
+        </ul>
+</div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="height:90px;">
+    <img src="../static/logo.png" alt="Tag" width="135px" height="36px" style="margin-left:140px">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="width:1200px">
+            <li class="nav-item active">
+                <a class="nav-link" href="http://localhost/Agriculture/index.php" style="margin-left:78px;font-weight: bold;font-size:17px; color: black;">Home page</a>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="http://localhost/Agriculture/all_product.php" style="margin-left:15px;font-weight: bold;font-size:17px;color: black;">Product</a>
+            </li>
+
+
+            <li class="nav-item active">
+                <a class="nav-link" href="http://localhost/Agriculture/map.php" style="margin-left:15px;font-weight: bold;font-size:17px;color: black;">About us</a>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="http://localhost/Agriculture/contactUs.php" style="margin-left:15px;font-weight: bold;font-size:17px;color: black;">Contact</a>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="http://127.0.0.1:5000/" style="margin-left:15px;font-weight: bold;font-size:17px;color: black;">Restore</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-lg-9 col-md-8 padding-top-2px" style="margin-top:10px">
+    </div>
+</nav>
+
+
+<div class="container">
+    <!-- For demo purpose -->
+    <div class="row mb-5 text-center text-white">
+        <div class="col-lg-10 mx-auto">
+            <h1 class="display-4"
+                style="padding-top: 2%;font-weight: 400;color: rgb(4, 54, 4); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                <b>🍀 Plant Disease Detection 🍀</b></h1>
+            <p class="lead" style="font-weight: 500;color: black;">This AI Engine Will Help To Detect Disease From
+                Fruites And Veggies</p>
+        </div>
+    </div>
+    <!-- End -->
+    <div class="row ">
+
+        <div class="col-lg-12 mx-auto">
+            <div class="p-5 bg-white shadow rounded-lg" style="height: 95%;">
+
+
+                <style>
+                    #drop-area {
+                        border: 3px dashed #ccc;
+                        background-color: #f9f9f9;
+                        padding: 20px;
+                        text-align: center;
+
+                    }
+
+                    #drop-area.dragover {
+                        border: 2px dashed #007bff;
+                        background-color: #e6f7ff;
+
+                    }
+                </style>
+                <form action="/submit" method="POST" enctype="multipart/form-data">
+                    <div class="custom-file overflow-hidden mb-4" id="drop-area">
+                        <input type="file" id="actual-btn" hidden name="image" required />
+                        <label for="actual-btn" class="bg-transparent"><img src="../static/Image_Upload.png"
+                                width="55%"></label>
+                        <br> <span id="file-chosen" style="font-weight: 600; font-style: italic;">No file chosen</span>
+                    </div>
+
+                    <!-- End -->
+
+                    <h6 class="text-center mb-4 text-muted" style="font-size: 17px;font-weight: bold;">
+                        Simply upload your plant's leaf image and then see the magic of AI.
+                    </h6>
+
+                    <!-- Custom bootstrap upload file-->
+                    <center>
+                        <a class="mx-2"><button type="submit" class="btn btn-outline-success"
+                                style="font-weight: bold; border: 2px solid;">📤 PREDICT 📤</button></a>
+                    </center>
+                </form>
+                <!-- End -->
+
+            </div>
+        </div>
+
+        <div class="col-lg-6 mx-auto">
+            <div class="p-5 bg-white shadow rounded-lg" style="height: 95%;text-align: justify;">
+
+                <h5 style="text-align: center;"><b>📝 Why is it necessary to detect disease in plant ?</b></h5>
+                <p style="margin-top: 3%; font-size: 17px;">Plant diseases affect the growth of their respective
+                    species. In addition, some research gaps are
+                    identified from which to obtain greater transparency for detecting diseases in plants, even
+                    before their symptoms appear clearly.
+                    diagnosis is one of the most important aspects of a plant pathologist's training. Without proper
+                    identification of the disease and the disease-causing agent, disease control measures can be a
+                    waste of time and money and can lead to further plant losses. Proper disease diagnosis is
+                    necessary.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="col-lg-6 mx-auto">
+            <div class="p-5 bg-white shadow rounded-lg" style="height: 95%;text-align: left;">
+                <h5 style="text-align: center;"><b>📝 Prevent Plant Disease follow below steps :</b></h5>
+                <ol style="margin-top: 3%;font-size: 17px;">
+                    <li>Follow Good Sanitation Practices.</li>
+                    <li>Fertilize to Keep Your Plants Healthy.</li>
+                    <li>Inspect Plants for Diseases Before You Bring Them Home.</li>
+                    <li>Allow the Soil to Warm Before Planting.</li>
+                    <li>Ensure a Healthy Vegetable Garden By Rotating Crops.</li>
+                    <li>Provide Good Air Circulation</li>
+                    <li>Remove Diseased Stems and Foliage</li>
+                </ol>
+                <a target="_blank" href="https://www.thespruce.com/prevent-plant-diseases-in-your-garden-2539511"
+                    class="mx-2">
+                    <center>
+                        <button type="button" class="btn btn-outline-success" style="font-weight: bold;">More
+                            info</button>
+                    </center>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script>
+    const actualBtn = document.getElementById('actual-btn');
+
+    const fileChosen = document.getElementById('file-chosen');
+
+    const dropArea = document.getElementById('drop-area');
+
+    dropArea.addEventListener('dragover', function (e) {
+        e.preventDefault();
+        this.classList.add('dragover');
+    });
+
+    dropArea.addEventListener('dragleave', function () {
+        this.classList.remove('dragover');
+    });
+
+    dropArea.addEventListener('drop', function (e) {
+        e.preventDefault();
+        this.classList.remove('dragover');
+        const file = e.dataTransfer.files[0];
+
+        if (file) {
+
+            fileChosen.textContent = file.name;
+
+            actualBtn.files = e.dataTransfer.files;
+        }
+    });
+
+    actualBtn.addEventListener('change', function () {
+        fileChosen.textContent = this.files[0].name
+    })
+</script>
+
+{% endblock body %}
