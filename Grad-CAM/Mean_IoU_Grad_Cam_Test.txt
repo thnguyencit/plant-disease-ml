@@ -1,0 +1,5 @@
+IoU at threshold Test 0.1: 0.55448
+IoU at threshold Test 0.2: 0.62498
+IoU at threshold Test 0.3: 0.71381
+IoU at threshold Test 0.4: 0.83879
+IoU at threshold Test 0.5: 0.99632

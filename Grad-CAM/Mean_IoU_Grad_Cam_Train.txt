@@ -1,0 +1,5 @@
+IoU at threshold train 0.1: 0.55179
+IoU at threshold train 0.2: 0.61527
+IoU at threshold train 0.3: 0.69810
+IoU at threshold train 0.4: 0.81209
+IoU at threshold train 0.5: 0.95742
