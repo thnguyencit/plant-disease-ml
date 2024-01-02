@@ -41,6 +41,29 @@ Here are some key technologies that our project utilizes:
 
 - [Python](https://www.python.org/)
 
+# Installation
+
+## Clone the repository and install the require packages:
+
+- Clone
+  
+git clone https://github.com/thnguyencit/plant-disease-ml.git
+cd plant-disease-ml/YSLS-Grad/Source Code
+
+- Install the packages
+  
+pip install -r requirements.txt
+
+## Training
+
+python ShuffleNetV2.py -t train -r test -e 10 -k 39 -b 32 -g -o ShuffleNetV2\ShuffleNetV2_1 -s 1
+
+## Testing
+
+python app.py 
+
+http://127.0.0.1:5000/
+
 ## Support
 
 If you encounter any issues or have questions, please feel free to contact us via [email](mailto:nphat77777@gmail.com) or [on our](https://github.com/thnguyencit/plant-disease-ml/tree/main).
