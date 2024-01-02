@@ -49,8 +49,9 @@ Here are some key technologies that our project utilizes:
   
 ```bash
 git clone https://github.com/thnguyencit/plant-disease-ml.git
-cd plant-disease-ml/YSLS-Grad/Source Code
 
+cd plant-disease-ml/YSLS-Grad/Source Code
+``` 
 - Install the packages
   
 pip install -r requirements.txt
