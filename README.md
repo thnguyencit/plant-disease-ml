@@ -41,7 +41,7 @@ Here are some key technologies that our project utilizes:
 
 - [Python](https://www.python.org/)
 
-# Installation
+## Installation
 
 ### Clone the repository and install the require packages:
 
