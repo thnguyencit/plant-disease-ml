@@ -43,7 +43,7 @@ Here are some key technologies that our project utilizes:
 
 # Installation
 
-## Clone the repository and install the require packages:
+### Clone the repository and install the require packages:
 
 - Clone
   
