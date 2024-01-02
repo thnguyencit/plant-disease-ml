@@ -14,7 +14,7 @@ In the 4.0 technology revolution, artificial intelligence is increasingly develo
 The proposed workflow for Disease Detection on Plant Leaves.
 Shows the overall workflow for leaf disease detection. In the first phase, we collect data for testing and divide the dataset into two main subsets, including the training and testing sets. We then process data by applying image denoising, Soft Thresholding Noise Filtering with Lasso regression to reduce image noise. Next, the data are fed into deep learning architectures such as ShuffleNetV2, LeNet-5, and ResNet18 for disease classification tasks. After having a classification model, the study continued to apply the Grad-CAM interpretation method, which supports segmentation to locate the disease area on the plant leaf images.
 
-![Workflow](Images/Diagram.png)
+![Workflow](Results/Diagram.png)
 
 ## Method
 - YOLOv8, ShuffleNetV2, ResNet18, LeNet-5
@@ -25,15 +25,15 @@ Shows the overall workflow for leaf disease detection. In the first phase, we co
 
 - Figure shows the results of the confusion matrix in the testing set, with the number of disease classes that produced the lowest results being the class named Tomato Early Blight with an accuracy of 0.6 and the class that produced the highest result with an accuracy of 1.0.
 
-![Normalized_Confusion_Matrix](Images/Normalized_Confusion_Matrix.png)
+![Normalized_Confusion_Matrix](Results/Normalized_Confusion_Matrix.png)
 
 - Figure compares test recognition accuracy by ShuffleNetV2, ResNet18, and LeNet-5 in modern architectures. With training comparison, it works and corresponds to the validation. Observing figure increases the accuracy determined by different models. It should be noted that the accuracy of our model is currently higher than other models. Figure 10 identifies the preliminary calibration results of the proposed method.
 
-![Summary_Of_Charts](Images/Summary_Of_Charts.png)
+![Summary_Of_Charts](Results/Summary_Of_Charts.png)
 
 - Figure illustrates the binary image extracted from various Grad-CAM based threshold values ranging from 0.1 to 0.5. These visualizations allow us to see the binary shapes extracted from Grad-CAM. From that, they can be used for segmentation compared to the masks, which is also an essential contribution of our method.
 
-![Binary_Threshold_Values](Images/Binary_Threshold_Values.jpg)
+![Binary_Threshold_Values](Results/Binary_Threshold_Values.jpg)
 
 
 ## Technologies Used
