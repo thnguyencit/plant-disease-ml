@@ -66,7 +66,7 @@ python ResNet18.py -t train -r test -e 10 -k 39 -b 32 -g -o ResNet18\ResNet18_1 
 ```
 - LeNet-5 Models
 ```bash
-python LeNet.py -t train -r test -e 10 -k 39 -b 32 -g -o LeNet\LeNet_2 -s 1
+python LeNet.py -t train -r test -e 10 -k 39 -b 32 -g -o LeNet\LeNet_1 -s 1
 ``` 
 ## Testing
 ```bash
