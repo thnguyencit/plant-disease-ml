@@ -49,7 +49,6 @@ Here are some key technologies that our project utilizes:
   
 ```bash
 git clone https://github.com/thnguyencit/plant-disease-ml.git
-
 cd plant-disease-ml/YSLS-Grad/Source Code
 ``` 
 - Install the packages
@@ -71,3 +70,4 @@ If you encounter any issues or have questions, please feel free to contact us vi
 
 ---
 **Note:** Don't forget to update all links and information to reflect the specifics of your project.
+[![Phiên bản](https://img.shields.io/badge/version-v1.0.0-brightgreen.svg)](https://github.com/username/repo/releases)
